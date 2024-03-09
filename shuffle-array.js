@@ -15,3 +15,16 @@ let nums = [1, 1, 2, 2];
 let n = 2;
 let result = shuffle(nums, n);
 console.log('result', result);
+
+// Other's solution
+// Solution 1
+var shuffle1 = function (nums, n) {
+  let start = 0,
+    mid = n;
+  const arr = [];
+  while (mid < nums.length) {
+    arr.push(nums[start++]);
+    arr.push(nums[mid++]);
+  }
+  return arr;
+};
