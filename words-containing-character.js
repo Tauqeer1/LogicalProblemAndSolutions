@@ -15,4 +15,5 @@ var findWordsContaining = function (words, x) {
 let words = ['abc', 'bcd', 'aaaa', 'cbc'],
   x = 'z';
 let result = findWordsContaining(words, x);
-console.log('result', result);
+
+// Other's solution
